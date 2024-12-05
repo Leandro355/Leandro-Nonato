@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Mim</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f09c9c;
+        }
+        
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+        }
+        
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        
+        nav ul li {
+            margin-right: 15px;
+        }
+        
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            padding: 5px 10px;
+            transition: background-color 0.3s;
+        }
+        
+        nav ul li a:hover, nav ul li a.active {
+            background-color: #555;
+            border-radius: 5px;
+        }
+        
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        
+        label {
+            font-weight: bold;
+            color: #555;
+        }
+        
+        input, textarea, button {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        
+        input:focus, textarea:focus {
+            border-color: #0066cc;
+            outline: none;
+            box-shadow: 0 0 5px rgba(0, 102, 204, 0.5);
+        }
+        
+        button {
+            background-color: #0066cc;
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        button:hover {
+            background-color: #005bb5;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="sobre.html" class="active">Sobre Mim</a></li>
+                <li><a href="formacao.html">Formação</a></li>
+                <li><a href="portfolio.html">Portfólio</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Sobre Mim</h1>
+        <section>
+            <h2>Quem sou eu?</h2>
+            <p>Olá! Meu nome é Leandro e sou apaixonado por tecnologia e desenvolvimento de sistemas e otimização de tarefas. Tenho facilidade em criar soluções inovadoras e funcionais que facilitem a vida das pessoas.</p>
+        </section>
+        <section>
+            <h2>Meus Hobbies</h2>
+            <ul>
+                <li>Estudos e pesquisas sobre tecnologia e economia financeira.</li>
+                <li>Pratico esporte, boxe, levantamento de peso e Ciclismo.</li>
+                <li>Nas horas de tranquilidade gosto de levar a familia para passear, e jogar video game.</li>
+                <li>Desenvolver pequenos projetos de programação no meu tempo livre.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Valores Pessoais</h2>
+            <p>Sou uma pessoa comprometida, E sempre em busca de aprendizado constante. Acredito no poder do trabalho em equipe e na importância de compartilhar conhecimentos.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Leandro. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
